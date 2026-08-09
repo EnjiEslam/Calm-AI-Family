@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calm AI - Family </title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--  Header -->
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <h1>Calm AI</h1>
+                <span class="badge">ولي الأمر</span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#status">الحالة</a></li>
+                    <li><a href="#history">التاريخ</a></li>
+                </ul>
+            </nav>
+
+            <div class="user">
+                <span>مرحباً، ولي الأمر</span>
+                <i class="fas fa-user-circle"></i>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--  Hero  -->
+    <section class="hero" id="home">
+        <div class="container">
+
+            <div class="heroText">
+                <h1>
+                    لوحة تحكم
+                    <span class="blue">ولي الأمر</span>
+                </h1>
+
+                <p>
+                    تابع حالة الشخص المقرب لك واحصل على تنبيهات فورية
+                </p>
+
+                <div class="stats">
+
+                    <div class="stat">
+                        <span class="num">12</span>
+                        <span class="label">حالة آمنة</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="num">3</span>
+                        <span class="label">تنبيهات</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="num">1</span>
+                        <span class="label">نوبات</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="heroImg">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  Status  -->
+    <section class="status" id="status">
+        <div class="container">
+
+            <h2 class="title">الحالة الحالية</h2>
+
+            <div class="currentStatus">
+
+                <div class="icon">🟢</div>
+
+                <div class="info">
+                    <h3>بخير</h3>
+                    <p>لا توجد أي مشاكل حالياً</p>
+                </div>
+
+                <span class="time">منذ دقيقة</span>
+
+            </div>
+
+
+            <div class="grid">
+
+                <!-- Safe -->
+                <div class="card safe">
+                    <div class="icon">🟢</div>
+                    <h3>آمن</h3>
+                    <p>الحالة مستقرة</p>
+                    <span class="value">نشط</span>
+                </div>
+
+
+                <!-- Calm Mode -->
+                <div class="card calm">
+                    <div class="icon">🟡</div>
+                    <h3>وضع التهدئة</h3>
+                    <p>جلسة نشطة</p>
+                    <span class="value">غير نشط</span>
+                </div>
+
+
+                <!-- Panic -->
+                <div class="card panic">
+                    <div class="icon">🔴</div>
+                    <h3>نوبات اليوم</h3>
+                    <p>عدد النوبات</p>
+                    <span class="value">0</span>
+                </div>
+
+            </div>
+
+
+            <!-- ===== Timer ===== -->
+            <div class="timerBox">
+
+                <h3>
+                    <i class="fas fa-clock"></i>
+                    مدة المراقبة
+                </h3>
+
+                <div class="timerDisplay">
+                    00:00
+                </div>
+
+                <div class="timerBtns">
+                    <button class="btn green">
+                        <i class="fas fa-play"></i>
+                        بدء
+                    </button>
+
+                    <button class="btn red">
+                        <i class="fas fa-stop"></i>
+                        إيقاف
+                    </button>
+
+                    <button class="btn gray">
+                        <i class="fas fa-redo"></i>
+                        إعادة
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  History  -->
+    <section class="history" id="history">
+
+        <div class="container">
+
+            <h2 class="title">سجل النوبات</h2>
+
+            <div class="historyList">
+
+                <div class="item">
+                    <span class="date">اليوم، 10:30 ص</span>
+                    <span class="status">🟢 آمن</span>
+                    <span class="note">لا توجد نوبة</span>
+                </div>
+
+                <div class="item">
+                    <span class="date">الأمس، 08:15 م</span>
+                    <span class="status">🟡 تهدئة</span>
+                    <span class="note">جلسة تنفس</span>
+                </div>
+
+                <div class="item">
+                    <span class="date">الأمس، 02:00 م</span>
+                    <span class="status">🔴 نوبة</span>
+                    <span class="note">مدة 5 دقائق</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--  Footer  -->
+    <footer class="footer">
+
+        <div class="container">
+            <p>© 2026 Calm AI - نظام دعم نوبات الهلع</p>
+            <p class="small">
+                نسخة ولي الأمر - للمتابعة والتطمين
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
