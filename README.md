@@ -1,46 +1,61 @@
- Calm AI - Family 💙
+ 💙 Calm AI - Family
 
-لما بدأت أشتغل على Calm AI كنت بفكر في الشخص اللي بيمر بنوبة هلع، وإزاي ممكن نساعده في اللحظة دي.
+When I started working on Calm AI, I was thinking about the person going through a panic attack, and how we could help them in that moment.
 
-بعدها فكرت في حاجة تانية
+Then I thought about something else:
 
-طب وأهله؟
+What about their family?
 
-وقت النوبة ممكن الشخص نفسه ميكونش قادر يتكلم أو يطلب مساعدة  فولي الأمر محتاج يعرف بسرعة إذا كان الشخص بخير أو محتاج دعم.
+During a panic attack, the person might not be able to speak or ask for help. So the parent or guardian needs to know quickly if the person is okay or needs support.
 
-ومن هنا بدأت فكرة calm-AI-Family.
+That's how the idea for Calm AI - Family started.
 
-الفكرة
+---
 
-الـDashboard جزء من نظام Calm AI، ومصمم علشان يساعد ولي الأمر يتابع حالة الشخص بشكل بسيط وواضح.
+ The Idea
 
-الواجهة بتعرض:
+This Dashboard is part of the Calm AI system. It's designed to help a parent or guardian track the person's status in a simple and clear way.
 
-- 🟢 الحالة الحالية.
-- 🟡 Calm Mode.
-- 🔴 عدد النوبات.
--  التنبيهات.
--  سجل الحالات.
-- مدة المراقبة.
+The interface shows:
 
-حاولت أخلي التصميم بسيط، بحيث ولي الأمر يقدر يفهم الحالة من نظرة واحدة.
+- 🟢 Current status
+- 🟡 Calm Mode
+- 🔴 Number of panic attacks
+- Notifications
+- History log
+- Monitoring timer
 
-الموجود حاليًا
+I tried to keep the design simple, so the parent can understand the situation at a glance.
 
-ده Front end prototybe فقط، والبيانات الموجودة تجريبية علشان أوضح شكل الفكرة.
+---
 
-استخدمت:
+ What's Currently Available
+
+This is a **Front-End prototype only**, and the data shown is fake/demo data to explain the idea.
+
+Technologies used:
 
 - HTML
 - CSS
 
-مفيش حاليًا AI أو Database أو Smart Watch متصلة فعليًا.
+There is no AI, Database, or Smart Watch connected yet.
 
- المستقبل
+---
 
-نفسي بعد كده أربطه بباقي Calm AI بحيث يقدر يستقبل تنبيهات حقيقية، ويعرض تقارير عن الحالة، ويتكامل مع الـSmart Watch، مع الحفاظ على خصوصية المستخدم وموافقته.
+ Future Plans
 
-الهدف في النهاية إن Calm AI مش بس يساعد الشخص وقت النوبة، لكن يساعد كمان الأشخاص القريبين منه يكونوا جزء من الدعم. 💙
+I hope to connect this to the rest of Calm AI so it can:
+
+- Receive real notifications
+- Show actual status reports
+- Integrate with Smart Watches
+- Keep user privacy and consent as a priority
+
+---
+
+ The Goal
+
+Calm AI isn't just about helping the person during a panic attack. It's also about helping the people close to them be part of the support system. 💙
 
 ---
 
